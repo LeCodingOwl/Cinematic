@@ -1,8 +1,8 @@
 var config = {
+  type: Phaser.Auto,
   width: 1920,
   height: 1080,
-  backgroundColor: 0x000000,
-  scene: [Logo, Scene2]
+  scene: [Start, Logo, Intro, Title, Loading, Jumpscare]
 }
 
 
