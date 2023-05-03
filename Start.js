@@ -1,6 +1,6 @@
 class Start extends Phaser.Scene {
     constructor() {
-      super("start");
+      super("Start");
     }
     preload() {
       this.cameras.main.setBackgroundColor(0);
