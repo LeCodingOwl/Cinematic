@@ -20,7 +20,7 @@ class Logo extends Phaser.Scene {
     
     this.add.tween({
       targets: logo,
-      delay: 700,
+      delay: 1000,
       alpha: 2
     });
 
@@ -28,7 +28,7 @@ class Logo extends Phaser.Scene {
     this.add.tween({
       targets: hootHoot,
       volume: 1,
-      delay: 900,
+      delay: 1200,
       alpha: 1,
       duration: 0,
       onStart: function()
@@ -40,9 +40,9 @@ class Logo extends Phaser.Scene {
     this.add.tween({
       targets: logo,
       alpha: 0,
-      delay: 1200,
+      delay: 2000,
     });
 
-    this.time.delayedCall(2000, () => this.scene.start("intro"));
+    this.time.delayedCall(2800, () => this.scene.start("Intro"));
   }
 }
