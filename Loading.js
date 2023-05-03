@@ -65,3 +65,5 @@ class Loading extends Phaser.Scene {
         this.time.delayedCall(6500, () => this.scene.start("Jumpscare"));
       }
 }
+
+//test
