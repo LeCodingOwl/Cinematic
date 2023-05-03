@@ -5,5 +5,4 @@ var config = {
   scene: [Start, Logo, Intro, Title, Loading, Jumpscare]
 }
 
-
 var game = new Phaser.Game(config);
